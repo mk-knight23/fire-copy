@@ -6,6 +6,9 @@ import Forms from './Components/Forms';
 import Banner from './Components/Banner';
 import './App.css';
 import React, {createContext, useState} from 'react';
+import Greet from './Components/Greet';
+import Uploadimage from './Components/Uploadimage';
+import ImageUpload from './Components/ImageUpload';
 
 export const information = React.createContext();
 
@@ -18,6 +21,9 @@ function App() {
         <Header></Header>
         <Banner></Banner>
         <Forms></Forms>
+        <Greet/>
+        {/* <Uploadimage/> */}
+        {/* <ImageUpload/> */}
       </div>
     </information.Provider>
     

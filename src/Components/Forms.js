@@ -152,9 +152,9 @@ const Forms = () => {
             info && <>
             <div className="container">
                 <h3 className="text-center my-5 text-success">You have logged in successfully</h3>
-                <Greet/>
+                {/* <Greet/> */}
             </div>
-
+            <br></br>
             <button onClick={logout} className=" btn btn-primary d-block px-5 mx-auto">Logout</button>
             </>
         }

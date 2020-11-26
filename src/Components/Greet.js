@@ -25,6 +25,11 @@ function Greet() {
       <h2>
         Good <span style={timeOfDayStyle}>{timeOfDay}</span>
       </h2>
+      
+    <input type="file" id="photo"></input>
+    <image id="image"> </image>
+    <button onClick="uploadimage()"> Upload image</button>
+
     </div>
   );
 }
