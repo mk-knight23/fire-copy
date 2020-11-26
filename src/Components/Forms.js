@@ -5,6 +5,7 @@ import "firebase/auth";
 import "firebase/firestore";
 import firebaseConfig from './firebasConfig';
 import {information} from '../App';
+import Greet from './Greet';
 
 firebase.initializeApp(firebaseConfig);
 
@@ -151,6 +152,7 @@ const Forms = () => {
             info && <>
             <div className="container">
                 <h3 className="text-center my-5 text-success">You have logged in successfully</h3>
+                <Greet/>
             </div>
 
             <button onClick={logout} className=" btn btn-primary d-block px-5 mx-auto">Logout</button>

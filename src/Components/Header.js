@@ -11,8 +11,7 @@ const Header = () => {
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
         <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto">
-            <Nav.Link target="_blank" href="">Portfolio</Nav.Link>
-            <Nav.Link target="_blank" href="">Github</Nav.Link>
+            <Nav.Link target="_blank" href="https://github.com/mk-knight23">Github</Nav.Link>
             {
                 !info && <Nav.Link href="#link" active>Login</Nav.Link>
             }
