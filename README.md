@@ -1,2 +1,2 @@
 # fire-copy1
- check Fire base : https://mkclock.web.app 
+# DEMO : https://mkclock.web.app 
